@@ -1,0 +1,112 @@
+.header {background-image: url('./img/astro.jpg');
+    width: 100%;
+    height: fit-content;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    padding: 5px;
+}
+.body{
+    background-color: black;
+}
+.footer {background-color: green;
+    width: 100%;
+    height: fit-content;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.tabla_horarios { border: red 5px solid ;
+    background-color: black;
+    color: white;
+}
+.dias {
+font-weight: bold;
+font-size: 22px;
+color: aqua;
+}
+.horarios {
+    font-style: italic;
+    color: aqua;
+}
+.formulario {border: solid black 3px;
+    width: 250px;
+    padding: 5px;
+    background-color: greenyellow;
+}
+.titulos {
+    color: white;
+    margin: auto;
+    width: fit-content;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p {color: black;
+    font-weight: bold;
+    justify-content: center;
+    background-color: white;
+    border-radius: 4rem;
+    width: 150px;
+    padding: 5px;
+    margin: auto;
+}
+.nav {
+width: fit-content;
+justify-content: center;
+align-items: center;
+margin: auto;
+}
+.nav ul {list-style: none;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 5px;
+}
+.nav ul li { color: white;
+    padding: 1%;
+    align-items: center;
+}
+
+.contenedor-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+.card {background-image: url('./img/charli.jpg');
+    width: 220px;
+    height: 220px;
+   
+
+}
+.card-image {
+    width: 150px;
+}
+.formulariob{
+    width: 800px;
+    height: 800px;
+    padding: 3%;
+    color: white;
+    background-color: gray;
+    margin: auto;
+    justify-content: center;
+}
